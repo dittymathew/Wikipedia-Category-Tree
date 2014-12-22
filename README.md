@@ -10,13 +10,20 @@ wikitools
 Usage
 ===========
 python categoryTree.py category_name depth output_file
+
 category_name : Category which we are looking into.This category will form the root of Category tree.
+
 depth : This argument decides the depth of the category tree
+
 output_file : The output will generate in this file. The format of output is adjacency representation. For eg: cat:subcat1,subcat2
 
 
 Example
 ===========
+category_name : Linear_algebra
+depth : 1
+output_file : cat_tree.txt
+
 python categoryTree.py Linear_algebra 1 cat_tree.txt
 
 Output: cat_tree.txt
