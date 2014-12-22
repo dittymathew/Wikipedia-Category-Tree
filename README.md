@@ -21,8 +21,11 @@ output_file : The output will generate in this file. The format of output is adj
 Example
 ===========
 category_name : Linear_algebra
+
 depth : 1
+
 output_file : cat_tree.txt
+
 
 python categoryTree.py Linear_algebra 1 cat_tree.txt
 
