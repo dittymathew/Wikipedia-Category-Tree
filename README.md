@@ -20,16 +20,15 @@ output_file : The output will generate in this file. The format of output is adj
 
 Example
 ===========
+python categoryTree.py Linear_algebra 1 cat_tree.txt
+
 category_name : Linear_algebra
 
 depth : 1
 
 output_file : cat_tree.txt
 
-
-python categoryTree.py Linear_algebra 1 cat_tree.txt
-
-Output: cat_tree.txt
+Generated Output: cat_tree.txt
 
 Linear_algebra:Theorems in linear algeb,nvex geom,Determinants,Invariant subspaces,Linear operators,Matrices,Matrix th,Multilinear algeb,Numerical linear algeb,Singular value decomposition,Spectral th,Super linear algeb,Topological vector spaces,Vector spaces,Vectors,Linear algebra stubs
 
